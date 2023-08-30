@@ -4,10 +4,8 @@ import { Card } from 'react-bootstrap';
 import './about.scss'
 import "aos/dist/aos.css";
 import AOS from 'aos';
-const About = () =>
-{
-    useEffect(() =>
-    {
+const About = () => {
+    useEffect(() => {
         AOS.init({
             disable: 'mobile',
             duration: 2000,
@@ -20,7 +18,7 @@ const About = () =>
         <div id="about">
             <div className="main-about" >
                 <div className="sectionTitle">
-                    <div data-aos="slide-left" data-aos-delay="100" data-aos-anchor-placement="center-bottom"
+                    <div data-aos="slide-left" data-aos-anchor-placement="center-bottom"
                         data-aos-delay="150"
                         data-aos-mirror="true"
                         data-aos-once="false"
@@ -30,7 +28,7 @@ const About = () =>
                 </div>
 
                 <div className="wrapper">
-                    <a className="button" href="/portfolio/Resume2021.pdf" download="HariniNatarajan_Resume.pdf">
+                    <a className="button" href="/portfolio/Resume.pdf" download="HariniNatarajan_Resume.pdf">
                         <div data-aos="flip-left" data-aos-anchor-placement="center-bottom"
                             data-aos-delay="150"
                             data-aos-mirror="true"
@@ -112,9 +110,9 @@ const About = () =>
                                     data-aos-once="false">
                                     <Card.Text>
                                         I hold MS Degree in Computer Science (Malmo University, Sweden).
-                                <a href="https://muep.mau.se/bitstream/handle/2043/23169/master-thesis_Rashmi_Natarajan_D2.pdf?sequence=2&isAllowed=y"> Master Thesis </a>  @ Axis Communications, Lund Sweden.
-                                Worked @ DASC as Frontend Developer  (2018 March-September)
-                            </Card.Text>
+                                        <a href="https://muep.mau.se/bitstream/handle/2043/23169/master-thesis_Rashmi_Natarajan_D2.pdf?sequence=2&isAllowed=y"> Master Thesis </a>  @ Axis Communications, Lund Sweden.
+                                        Worked @ DASC as Frontend Developer  (2018 March-September)
+                                    </Card.Text>
                                 </div>
                                 <ul className="unorder-lists">
                                     <div data-aos="slide-right"
