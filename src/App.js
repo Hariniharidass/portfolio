@@ -5,28 +5,22 @@ import Home from './components/Home';
 import Project from './components/Project';
 import Navbars from './components/Navbars';
 import About from './components/About';
-import ParticlesComponent from './components/ParticlesComponent'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
-export class App extends Component
-{
-  constructor()
-  {
+export class App extends Component {
+  constructor() {
     super();
     this.state = { isLoading: true }
   }
-  componentDidMount()
-  {
-    setTimeout(function ()
-    { //Start the timer
+  componentDidMount() {
+    setTimeout(function () { //Start the timer
       this.setState({ isLoading: false }) //After 1 second, set render to true
     }.bind(this), 100)
 
 
 
   }
-  render()
-  {
+  render() {
     return (
 
       this.state.isLoading ?
@@ -53,7 +47,6 @@ export class App extends Component
                 height: "100%"
               }}
             >
-              <ParticlesComponent />
               <div
                 style={{
                   position: "absolute",
