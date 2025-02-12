@@ -17,7 +17,7 @@ $color-green: #00ff00;
 body,
 html {
 	width: 100%;
-	height: calc(100vh-80px);
+	height: calc(100vh - 80px);
 	background-color: $color-black;
 
 	scroll-behavior: smooth;
@@ -30,7 +30,7 @@ html {
 	body,
 	html {
 		width: 100%;
-		height: calc(100vh-80px);
+		height: calc(100vh - 80px);
 
 		color: $primary;
 		background-color: $color-black;
