@@ -109,6 +109,7 @@ const About = () => {
                                     data-aos-mirror="true"
                                     data-aos-once="false">
                                     <Card.Text>
+                                        Currently pursuing IT- Frontend Development course at <a href="https://sundsgarden.se/">Sundsgården Folkhögskola</a>.
                                         I hold MS Degree in Computer Science (Malmo University, Sweden).
                                         <a href="https://muep.mau.se/bitstream/handle/2043/23169/master-thesis_Rashmi_Natarajan_D2.pdf?sequence=2&isAllowed=y"> Master Thesis </a>  @ Axis Communications, Lund Sweden.
                                         Worked @ DASC as Frontend Developer  (2018 March-September)
